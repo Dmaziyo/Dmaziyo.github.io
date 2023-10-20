@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dmaziyo.github.io/sitemap.xml
