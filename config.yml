@@ -1,0 +1,50 @@
+baseURL : "https://dmaziyo.github.io"
+languageCode : "en-us"
+title : "MaZiYo's Blog"
+theme: PaperMod
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+
+paginate: 15    # 每页显示的文章数
+
+
+params:
+    homeInfoParams:
+        Title: "Dct MaZiYo"
+        Content: >
+            I’m a college student majoring in CS,  i'm passionate on front-end ,open source culture and enjoy building interesting stuff, Outside of programming. i enjoy🕹️video games,🧢hiphop,🎸 and all sort of sports
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    author: MaZiYo
+    ShowReadingTime: true
+    # disableSpecialistPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    hideFooter: false # 隐藏页脚
+    ShowWordCounts: true
+    VisitCount: true
+
+    ShowLastMod: true #显示文章更新时间
+
+    ShowToc: true # 显示目录
+    TocOpen: true # 自动展开目录
+    socialIcons:
+      - name: twitter
+        title: twitter
+        url: "https://twitter.com/DctZi"
+      - name: github
+        title: github
+        url: "https://github.com/Dmaziyo"
+
+
+menu:
+  main:
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: Blogs
+      name: Blog
+      url: /posts/
+      weight: 20
+      

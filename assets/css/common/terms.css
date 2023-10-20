@@ -1,0 +1,22 @@
+.terms-tags li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    background: var(--border);
+    border-radius: 6px;
+    transition: transform 0.1s;
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
+    color: var(--secondary);
+    font-size: 14px;
+}
+
+.terms-tags a:active {
+    background: var(--tertiary);
+    transform: scale(0.96);
+}
