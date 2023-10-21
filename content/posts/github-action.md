@@ -1,10 +1,9 @@
 ---
 title : '浅入Github Action'
 date : 2023-10-21T10:04:48+08:00
-draft : true
+tags: ["浅入系列"]
 ---
-# 浅入Github Action
-背景：因为第一次部署博客在GitHub上，想要实现自动化更新部署，但是由于不熟悉GitHub actions，所以写下本篇浅入一下。
+**背景**：因为第一次部署博客在GitHub上，想要实现自动化更新部署，但是由于不熟悉GitHub actions，所以写下本篇浅入一下。
 ## 一、什么是Github actions?
 简单来说，就是由GitHub作为平台提供给开发者自动化工作流的方案，其中比较常见的工作流就是CI/CD
 ## 二、常见的工作流有哪些？
@@ -47,6 +46,7 @@ jobs:
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
 ```
+## 实际应用
 本次部署文档时使用的workflow如下
 ```yml
 name: Deploy Hugo Blog
@@ -78,5 +78,7 @@ jobs:
           publish_dir: ./public
 ```
 参考资料：
+
 https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
+
 https://www.youtube.com/watch?v=R8_veQiYBjI
