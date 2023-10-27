@@ -201,7 +201,7 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.9rem;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
@@ -211,7 +211,7 @@
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
+    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;

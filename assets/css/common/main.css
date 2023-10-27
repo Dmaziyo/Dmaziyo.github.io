@@ -46,6 +46,7 @@
 
 code {
     direction: ltr;
+    font-family: DM Mono,Input Mono,Fira Code,monospace;
 }
 
 div.highlight,
